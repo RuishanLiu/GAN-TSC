@@ -1,6 +1,6 @@
-# GAN-assisted model compression (GAN-MC)
+# GAN-assisted Teacher-student Compression (GAN-TSC)
 
-**Related link: [Codes to compute Compression Score](https://github.com/RuishanLiu/Compression-Score)**
+**Related link: [Codes to compute Compression Score](https://github.com/RuishanLiu/GAN-TSC-Score)**
 
 Codes for paper [Model Compression with Generative Adversarial Networks](https://arxiv.org/pdf/1812.02271.pdf).
 
