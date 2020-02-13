@@ -36,7 +36,7 @@ def generate_munge(X, y, times, s=1, p=0.5):
     label_fake = np.concatenate([y for _ in range(times)], axis=0)
     X_fake = []
     for i_times in range(times):
-        X_t = X
+        X_t = X.copy()
         for i in range(X_t.shape[0]):
             ei = X_t[i, :]
             j = np.argsort(np.sum((X_t - ei)**2, axis=1))[1] # closest
