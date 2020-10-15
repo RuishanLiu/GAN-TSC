@@ -1,9 +1,5 @@
 # GAN-assisted Teacher-student Compression (GAN-TSC)
 
-**Related link: [Codes to compute Compression Score](https://github.com/RuishanLiu/GAN-TSC-Score)**
-
-Codes for paper [Teacher-Student Compression with Generative Adversarial Networks](https://arxiv.org/pdf/1812.02271.pdf).
-
 ### Introduction 
 
 In a typical compression setting, as much data as possible has been dedicated to training the highly accurate teacher model, leaving little fresh data for training the student model.
